@@ -1,0 +1,2 @@
+var activeUsers = [];
+var chatData=[];

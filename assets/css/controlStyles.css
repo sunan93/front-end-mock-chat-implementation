@@ -1,0 +1,53 @@
+.html, body{
+    height: 100%;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.chatControls{
+    float: left;
+    height: 20%;
+    width: 100%;
+    /* background-color: red; */
+}
+.people{
+    float: left;
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    padding-left: 2vw;
+}
+.personSearch{
+    border-radius: 10px;
+    box-shadow: 0 0 0 0;
+    border: 1px solid #e2dccc;
+    float: left;
+}
+.addPerson {
+    width: 2vw;
+    background-color: #303f9f;
+    color: white;
+    float: left;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-left: 6px;
+    cursor: pointer;
+}
